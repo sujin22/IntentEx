@@ -10,10 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SubActivity"
-        android:textColor="@color/colorAccent"
+        android:textColor="#003399"
         android:textSize="50dp"
-        android:background="#ffff00"
+        android:background="#B2CCFF"
         android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
         />
 
     <Button
