@@ -9,23 +9,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="입력"
+        android:text="INPUT"
         android:textSize="30dp"
         android:id="@+id/textView"
         android:background="#112244"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"/>
 
     <EditText
         android:id="@+id/edittext"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#cccccc"/>
+        android:layout_height="50dp"/>
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text= "새 창 띄우기"
+        android:text= "print"
         />
 
 

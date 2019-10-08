@@ -9,23 +9,25 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="결과 값"
+        android:text="OUTPUT"
         android:textSize="30dp"
         android:id="@+id/textView"
         android:background="#112244"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/resulttext"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#cccccc"/>
+        android:layout_height="wrap_content"
+        android:background="#cccccc"
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text= "FINISH"
+        android:text= "CLOSE"
         />
 
 
