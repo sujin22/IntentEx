@@ -37,7 +37,7 @@ public class Join4Activity extends AppCompatActivity {
 //        for(int i=0;i<chk.length;i++){
 //            str += chk[i];
 //        }
-        resultTxt.setText("결과");
+
         String result = String.format(Locale.getDefault(),
                                 "이름: %s\n"+ "성별:%s\n " +"취미: %s\n", strName, strGender, strHobby);
 
