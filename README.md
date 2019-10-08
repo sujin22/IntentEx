@@ -29,3 +29,8 @@ Join4Activity: 입력한 정보 확인(TextView로 출력)
 <del>Join2Activity, Join3Activity에서 'btnNo'를 클릭했을 때 이전 화면으로 넘어가게 하기</del> (구현완료)  
 
 ![IntentEx4 Screenshots](./ScreenShots/IntentEx4.PNG)
+
+  
+  ### 5. IntentEx5
+  Open Setting 
+![IntentEx5 Screenshots](./ScreenShots/IntentEx5.PNG)
