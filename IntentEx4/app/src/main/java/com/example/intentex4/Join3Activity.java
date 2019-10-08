@@ -64,14 +64,12 @@ public class Join3Activity extends AppCompatActivity {
                 intent.putExtra("hobby", chkRs);
 
                 startActivity(intent);
-                finish();
             }
         });
 
         btnNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "회원가입 취소", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

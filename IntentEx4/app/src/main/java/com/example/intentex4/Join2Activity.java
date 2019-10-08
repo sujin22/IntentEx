@@ -51,14 +51,12 @@ public class Join2Activity extends AppCompatActivity {
                 intent.putExtra("name", name);
 
                startActivity(intent);
-               finish();
             }
         });
 
         btnNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "회원가입 취소", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

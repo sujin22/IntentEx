@@ -42,7 +42,6 @@ public class Join1Activity extends AppCompatActivity {
                 intent.putExtra("name",name);
 
                 startActivity(intent);
-                finish();
             }
         });
 
