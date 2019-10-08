@@ -10,30 +10,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SUB2 Activity"
-        android:textColor="#FFFFFF"
+        android:textColor="#3F0099"
         android:textSize="40dp"
         android:background="#E8D9FF"
         android:gravity="center_horizontal"
         android:fontFamily="casual"
+        android:layout_marginTop="30dp"
         />
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/b4"
-        android:text="SUB1 CALL"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/b5"
-        android:text="SUB3 CALL"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/b6"
-        android:text="FINISH"
-        />
-
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b4"
+            android:text="SUB1 CALL"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b5"
+            android:text="SUB3 CALL"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b6"
+            android:text="FINISH"
+            />
+    </LinearLayout>
 </LinearLayout>
