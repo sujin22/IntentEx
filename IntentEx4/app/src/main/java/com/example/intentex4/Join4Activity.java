@@ -38,12 +38,12 @@ public class Join4Activity extends AppCompatActivity {
 //            str += chk[i];
 //        }
 
-        String result = String.format(Locale.getDefault(),
+        String str = String.format(Locale.getDefault(),
                                 "이름: %s\n"+ "성별:%s\n " +"취미: %s\n", strName, strGender, strHobby);
 
-        resultTxt.setText(result);
+        resultTxt.setText(str);
 
-        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "입력하신 정보를 확인해주세요", Toast.LENGTH_SHORT).show();
 
 
         btnYes.setOnClickListener(new View.OnClickListener() {

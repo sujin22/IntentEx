@@ -8,7 +8,7 @@
         android:id="@+id/titleTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원 가입페이지"
+        android:text="회원 가입 페이지"
         android:background="#000"
         android:textColor="#fff"
         android:gravity="center_horizontal"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:background="#cf9b9b"
-        android:text="입력정보 확인"
+        android:text="입력 정보 확인"
         android:gravity="center_horizontal"/>
 
     <TextView

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -28,8 +29,14 @@ public class Join1Activity extends AppCompatActivity {
         btnYes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name =  nameTxt.getText().toString();
 
+                String name =  nameTxt.getText().toString();
+                name = name.trim();
+
+                if(name.getBytes().length <= 0) {
+                    Toast.makeText(getApplicationContext(), "이름을 입력해주세요", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 Intent intent = new Intent(getApplicationContext(), Join2Activity.class);
 
                 intent.putExtra("name",name);
@@ -42,6 +49,7 @@ public class Join1Activity extends AppCompatActivity {
         btnNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "회원가입 취소", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

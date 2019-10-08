@@ -42,7 +42,7 @@ public class Join3Activity extends AppCompatActivity {
 
                 for(int i=0;i<checks.length; i++){
                     if(checks[i].isChecked()){
-                        chkRs+=checks[i].getText().toString()+",";
+                        chkRs+=checks[i].getText().toString()+", ";
                         count++;
                     }
                 }
@@ -52,7 +52,7 @@ public class Join3Activity extends AppCompatActivity {
                 }
 
                 //축구,야구,배구
-                chkRs = chkRs.substring(0,chkRs.length()-1);
+                chkRs = chkRs.substring(0,chkRs.length()-2);
                 //축구,야구,배구
 //                String [] chk = chkRs.split(","); //구분자로 구분해서 String배열에 차례로 저장
 //                //{"축구", "야구", "배구"}
@@ -71,6 +71,7 @@ public class Join3Activity extends AppCompatActivity {
         btnNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "회원가입 취소", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
