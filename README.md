@@ -16,7 +16,8 @@ Sub1Activity Sub2Activity Sub3Activity에서 각각의 버튼 클릭 시 그에 
   
 ### 3. IntentEx3
 InputIntentActivity에서 입력한 문자열을 OutputIntentActivity에서 출력하기
-  
+![IntentEx3 Screenshots](./ScreenShots/IntentEx3.PNG)
+
 ### 4. IntentEx4
 회원가입하기  
 Join1Activity: EditText에 이름 입력  
