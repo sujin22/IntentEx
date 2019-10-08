@@ -24,4 +24,3 @@ Join4Activity: 입력한 정보 확인(TextView로 출력)
 
 + 앞으로 구현할 내용  
 Join2Activity, Join3Activity에서 'btnNo'를 클릭했을 때 이전 화면으로 넘어가게 하기
-
