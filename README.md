@@ -5,12 +5,12 @@ KOR: Intent를 이용한 activity 전환 예제
 <hr/>
 
 ### 1. IntentEx1
-MainActivity의 버튼을 누르면 SubActivity로 전환  
-SubActivity의 버튼을 누르면 MainActivity로 전환  
+MainActivity의 `BUTTON1`을 누르면 SubActivity로 전환  
+SubActivity의 `BUTTON2`을 누르면 MainActivity로 전환  
   
 ### 2. IntentEx2 
 Sub1Activity Sub2Activity Sub3Activity에서 각각의 버튼 클릭 시 그에 해당하는 Activity로 전환  
-FINISH버튼 클릭 시 액티비티 종료  
+`FINISH` 클릭 시 액티비티 종료  
   
 ### 3. IntentEx3
 InputIntentActivity에서 입력한 문자열을 OutputIntentActivity에서 출력하기
