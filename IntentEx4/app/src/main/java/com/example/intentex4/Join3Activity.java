@@ -64,6 +64,7 @@ public class Join3Activity extends AppCompatActivity {
                 intent.putExtra("hobby", chkRs);
 
                 startActivity(intent);
+                finish();
             }
         });
 

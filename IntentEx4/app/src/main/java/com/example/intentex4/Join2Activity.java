@@ -50,6 +50,7 @@ public class Join2Activity extends AppCompatActivity {
                 intent.putExtra("name", name);
 
                startActivity(intent);
+               finish();
             }
         });
 
