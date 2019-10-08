@@ -12,6 +12,7 @@ SubActivity의 `BUTTON2`을 누르면 MainActivity로 전환
 ### 2. IntentEx2 
 Sub1Activity Sub2Activity Sub3Activity에서 각각의 버튼 클릭 시 그에 해당하는 Activity로 전환  
 `FINISH` 클릭 시 액티비티 종료  
+![IntentEx2 Screenshots](./ScreenShots/IntentEx2.PNG)
   
 ### 3. IntentEx3
 InputIntentActivity에서 입력한 문자열을 OutputIntentActivity에서 출력하기
